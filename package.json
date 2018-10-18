@@ -1,0 +1,27 @@
+{
+  "name": "NextReact",
+  "version": "1.0.0",
+  "description": "tinkering with Next.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alernerdev/NextReact.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alernerdev/NextReact/issues"
+  },
+  "homepage": "https://github.com/alernerdev/NextReact#readme",
+  "dependencies": {
+    "next": "^7.0.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  }
+}
