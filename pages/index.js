@@ -1,8 +1,13 @@
+import Link from 'next/link';
+import Header from '../components/Header';
+import Layout from '../components/MyLayout';
+
 const Index = () => {
     return (
-        <div>
-            <p>Hello there</p>
-        </div>
+            <Layout>
+                <p>Home Page</p>
+            </Layout>
+
     );
 }
 
