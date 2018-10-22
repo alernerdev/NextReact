@@ -1,17 +1,19 @@
-import {withRouter} from 'next/router'
-import Layout from '../components/MyLayout'
+/* eslint-disable react/react-in-jsx-scope */
 
-const Content = withRouter((props) => (
-    <div>
-        <h1>{props.router.query.title}</h1>
-        <p>this is the blog post content</p>
-    </div>
- ))
+import { withRouter } from 'next/router';
+import Layout from '../components/MyLayout';
 
- const Page = (props) => (
-    <Layout>
-        <Content />
-   </Layout>
-)
+const Content = withRouter(props => (
+  <div>
+    <h1>{props.router.query.title}</h1>
+    <p>this is the blog post content</p>
+  </div>
+));
 
-export default Page
+const Page = props => (
+  <Layout>
+    <Content />
+  </Layout>
+);
+
+export default Page;
