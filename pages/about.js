@@ -1,5 +1,6 @@
-import Header from "../components/Header";
-import Layout from "../components/MyLayout";
+/* eslint-disable react/react-in-jsx-scope */
+
+import Layout from '../components/Layout';
 
 export default () => (
   <Layout>

@@ -1,7 +1,7 @@
 /* eslint-disable react/react-in-jsx-scope */
 
 import { withRouter } from 'next/router';
-import Layout from '../components/MyLayout';
+import Layout from '../components/Layout';
 
 const Content = withRouter(props => (
   <div>
@@ -10,7 +10,9 @@ const Content = withRouter(props => (
   </div>
 ));
 
-const Page = props => (
+/* eslint-disable react/prop-types */
+
+const Page = () => (
   <Layout>
     <Content />
   </Layout>
